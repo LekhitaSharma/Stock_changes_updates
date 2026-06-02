@@ -70,8 +70,8 @@ if perc_difference > 2:
         client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
         message = client.messages.create(
             body=formatted,
-            from_="+16504844601",
-            to="+919840378451"
+            from_="+16xxxxxxxxx",
+            to="+91xxxxxxxxxx"
         )
         print("message sent")
 
